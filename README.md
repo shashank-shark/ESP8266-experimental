@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/prismjs/prism.css">
+<>
 <h1>ESP8266-experimental</h1>
 --------------------------
  Experimental Projects using ESP8266 wifi chip and other open source electronics.
@@ -22,11 +24,33 @@
 
 <h2 id="blinkled"> Demo code for blinking LED on NodeMCU</h2>
 
-
 <pre>
-  <code>
-</pre>
+  <code class="language-c">
+    void setup() {
+  // Initialize the LED_BUILTIN pin as an output
+  pinMode(LED_BUILTIN, OUTPUT);
+}
 
+// the loop function runs over and over again forever
+void loop() {
+
+    /* Turn the LED on (Note that LOW is the voltage level
+   but actually the LED is on; this is because
+   it is active low on the ESP-01) */
+
+  digitalWrite(LED_BUILTIN, LOW);
+
+  // now give some delay for one second
+  delay(1000);
+
+  // Turn the LED off by making the voltage HIGH
+  digitalWrite(LED_BUILTIN, HIGH);  
+
+  // Wait for two seconds (to demonstrate the active low LED)
+  delay(2000);
+}
+  </code>
+</pre>
 ```c
 /* setup function here */
 void setup() {
@@ -73,3 +97,5 @@ void loop () {
 
 <h3>The MAC address is printed out to the stream in Serial Monitor</h3>
 <img src="https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Foutput-screen-images%2Fmac-find-serial.jpg?alt=media&token=16b20462-3f65-40fc-8f43-fd6766beb804">
+
+<script src="/prismjs/prism.js"></script>
