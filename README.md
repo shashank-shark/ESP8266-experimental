@@ -12,15 +12,15 @@
  A basic pin diagram of the NodeMCU is given below.
 
 
- ## Pin Connections of NodeMCU
+ # Pin Connections of NodeMCU
  --------------------------------
  ![Pin connections of NodeMCU](https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Fpin-diargam-nodeMCU%2FNodeMCUpins.png?alt=media&token=797f5613-7b60-4379-b420-ac8b255fc37e)
 
- ## It looks like the one below.
+ # It looks like the one below.
  ---------------------------------
 <img src="https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Freal-images-nodemcu%2FNodemcu.jpg?alt=media&token=ef6f87da-c9b7-4411-9665-5e0cbc8d7669" heigh="200" width="450">
 
-## Demo code for blinking LED on NodeMCU
+# Demo code for blinking LED on NodeMCU
 ----------------------------------------
 ```c
 /* setup function here */
@@ -49,7 +49,7 @@ void loop() {
 }
 ```
 
-## Code to find the MAC address off NodeMCU
+# Code to find the MAC address off NodeMCU
 ```c
 #include <ESP8266WiFi.h>
 
@@ -65,5 +65,5 @@ void loop () {
 }
 ```
 
-###  The MAC address is printed out to the stream in Serial Monitor
+#  The MAC address is printed out to the stream in Serial Monitor
 ![MAC address output](https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Foutput-screen-images%2Fmac-find-serial.jpg?alt=media&token=16b20462-3f65-40fc-8f43-fd6766beb804)
