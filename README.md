@@ -7,7 +7,7 @@
 |  1.0 | Basic pin diagram |  [Click Here](#Pin-Connections-of-NodeMCU ) |
 |  1.1 | How it looks ?  | [Click Here](#It-looks-like-the-one-below)  |
 |  1.2 | LED Blink Code |  [Go to blink code](#Demo-code-for-blinking-LED-on-NodeMCU) |
-| 1.3  | Find Hardware MAC  |  [Go to code]() |
+| 1.3  | Find Hardware MAC  |  [Go to code](#Code-to-find-the-MAC-address-off-NodeMCU) |
 
  A basic pin diagram of the NodeMCU is given below.
 
