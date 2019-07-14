@@ -49,7 +49,7 @@ void loop() {
 }
 ```
 
-## Code to find the MAC address off NodeMCU ([back to TOC](#ESP8266-experimental))
+## Code to find the MAC address off NodeMCU ([TOC](#ESP8266-experimental))
 -----------------------------------------------------------------------------------
 ```c
 #include <ESP8266WiFi.h>
