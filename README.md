@@ -64,3 +64,6 @@ void loop () {
   Serial.print (WiFi.macAddress());
 }
 ```
+
+###  The MAC address is printed out to the stream in Serial Monitor
+![MAC address output](https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Foutput-screen-images%2Fmac-find-serial.jpg?alt=media&token=16b20462-3f65-40fc-8f43-fd6766beb804)
