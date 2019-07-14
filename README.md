@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/prismjs/prism.css">
-<>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css">
+
 <h1>ESP8266-experimental</h1>
 --------------------------
  Experimental Projects using ESP8266 wifi chip and other open source electronics.
@@ -98,4 +98,5 @@ void loop () {
 <h3>The MAC address is printed out to the stream in Serial Monitor</h3>
 <img src="https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Foutput-screen-images%2Fmac-find-serial.jpg?alt=media&token=16b20462-3f65-40fc-8f43-fd6766beb804">
 
-<script src="/prismjs/prism.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/components/prism-bash.min.js"></script>
