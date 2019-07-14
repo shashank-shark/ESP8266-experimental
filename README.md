@@ -14,13 +14,15 @@
 
  ## Pin Connections of NodeMCU
  --------------------------------
- ![Pin connections of NodeMCU](https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Fpin-diargam-nodeMCU%2FNodeMCUpins.png?alt=media&token=797f5613-7b60-4379-b420-ac8b255fc37e)
+ <img src="https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Fpin-diargam-nodeMCU%2FNodeMCUpins.png?alt=media&token=797f5613-7b60-4379-b420-ac8b255fc37e">
 
- ## It looks like the one below. ([TOP](#ESP8266-experimental))
+ ## It looks like the one below.
  ---------------------------------
 <img src="https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Freal-images-nodemcu%2FNodemcu.jpg?alt=media&token=ef6f87da-c9b7-4411-9665-5e0cbc8d7669" heigh="200" width="450">
 
-## Demo code for blinking LED on NodeMCU ([TOC](#ESP8266-experimental))
+[back to TOC](#ESP8266-experimental)
+
+## Demo code for blinking LED on NodeMCU
 ----------------------------------------
 ```c
 /* setup function here */
@@ -49,7 +51,9 @@ void loop() {
 }
 ```
 
-## Code to find the MAC address off NodeMCU ([TOC](#ESP8266-experimental))
+[back to TOC](#ESP8266-experimental)
+
+## Code to find the MAC address off NodeMCU
 -----------------------------------------------------------------------------------
 ```c
 #include <ESP8266WiFi.h>
@@ -65,3 +69,8 @@ void loop () {
   Serial.print (WiFi.macAddress());
 }
 ```
+
+### Snapshot of MAC address printed
+<img src="https://firebasestorage.googleapis.com/v0/b/esp8266-experiments.appspot.com/o/esp8266-main%2Foutput-screen-images%2Fmac-find-serial.jpg?alt=media&token=16b20462-3f65-40fc-8f43-fd6766beb804">
+
+[back to TOC](#ESP8266-experimental)
