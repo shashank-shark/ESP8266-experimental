@@ -80,6 +80,8 @@ void loop() {
 
 <h2 id="findMac"> Code to find the MAC address off NodeMCU</h2>
 
+[Click Here](/mydocs/simple.md)
+
 ```c
 #include <ESP8266WiFi.h>
 
