@@ -25,7 +25,7 @@
 <h2 id="blinkled"> Demo code for blinking LED on NodeMCU</h2>
 
 <pre>
-  <code class="language-c">
+  <code class="clike">
     void setup() {
   // Initialize the LED_BUILTIN pin as an output
   pinMode(LED_BUILTIN, OUTPUT);
